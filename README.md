@@ -9,6 +9,9 @@ Well-preprocessed datasets can be downloaded from either [Google Drive](https://
 
 ## Acknowledgement
 We'd like to express our gratitude to the following GitHub repositories for their exceptional codebase:
+
 https://github.com/thuml/Time-Series-Library
+
 https://github.com/yuqinie98/PatchTST
+
 https://github.com/thuml/iTransformer
