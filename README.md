@@ -57,6 +57,31 @@ MixMamba is a time series forecasting model that utilizes a mixture-of-experts (
   - **Short-term Forecasting**: ```bash ./scripts/short_term_forecast/mixmamba_M4.sh```
   - **Classification**:  ```bash ./scripts/classification/mixmamba.sh```
 
+## Main Results
+
+<figure>
+  <img src="img/long_term_results.png" alt="long_term_results" width="100%">
+  <figcaption>
+    <div align="center"><b>Multivariate Long-term Forecasting.</b>></div>
+  </figcaption>
+</figure>
+
+
+<figure align="center">
+  <img src="img/short_term_results" alt="short_term_results" width="100%">
+  <figcaption>
+    <div align="center"><b>Multivariate Short-term Forecasting.</b></div>
+  </figcaption>
+</figure>
+
+<figure>
+  <img src="img/classification_results.png" alt="classification" width="100%">
+  <figcaption>
+    <div align="center"><b>Classification.</b></div>
+  </figcaption>
+</figure>
+
+
 ## Acknowledgement
 We'd like to express our gratitude to the following GitHub repositories for their exceptional codebase:
 
