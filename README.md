@@ -14,6 +14,7 @@ MixMamba is a time series forecasting model that utilizes a mixture-of-experts (
 - **Embedding and Augmentation**: Patches are embedded and augmented with positional information to provide context.
 - **MoM Block**: This central component consists of multiple Mamba experts coordinated by a gating network. Each Mamba expert employs a series of projections, convolutions, selective SSM, and a skip connection to learn temporal dependencies.
 - **Prediction Head**: A linear prediction head is used to generate final outputs based on the learned representations.
+  
 ![architecture](img/MixMamba_architecture.png)
 
 
@@ -25,7 +26,8 @@ MixMamba is a time series forecasting model that utilizes a mixture-of-experts (
 </p>
 
 ## Forecasting Plots
-[ETTh1](img/ETTh1)
+
+[ETTh1](img/ETTh1.png)
 
 ## Datasets
 Well-preprocessed datasets can be downloaded from either [Google Drive](https://drive.google.com/drive/folders/13Cg1KYOlzM5C7K8gK8NfC-F3EYxkM3D2) or [Baidu Drive](https://pan.baidu.com/s/1r3KhGd0Q9PJIUZdfEYoymg?pwd=i9iy). After downloading, place the data in the ```./dataset``` folder.
