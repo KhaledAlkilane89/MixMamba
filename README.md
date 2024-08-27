@@ -118,9 +118,8 @@ For inquiries or to discuss potential code usage, please reach out to the follow
   
 ## Acknowledgement
 We'd like to express our gratitude to the following GitHub repositories for their exceptional codebase:
-
+https://github.com/lucidrains/mixture-of-experts
+https://github.com/lucidrains/st-moe-pytorch
 https://github.com/thuml/Time-Series-Library
-
 https://github.com/yuqinie98/PatchTST
-
 https://github.com/thuml/iTransformer
