@@ -83,7 +83,7 @@ MixMamba is a time series forecasting model that utilizes a mixture-of-experts (
 
 ## Model Analysis
 - Mixmamba performance under varied look-back window length $𝐿 ∈ {96, 192, 336, 720}$ on PEMS03 datasets ($𝑇 = 720$) (**Upper left**).
-- Comparison of memory usage (Up) and computation time (Down) on ETTm2 dataset (Batch size is set to 32) (**Upper right**).
+- Comparison of memory usage (_Up_) and computation time (_Down_) on ETTm2 dataset (Batch size is set to 32) (**Upper right**).
 - Comparison of learned representations for different experts on ETTm1 dataset with $𝐿 = 96, 𝑇 = 720$  (**Down left**).
 - Hyperparameters analysis on exchange and ILI datasets ($𝐿 = 96, 𝑇 = 720$). (**Down right**)
 <p align="center">
@@ -94,6 +94,22 @@ MixMamba is a time series forecasting model that utilizes a mixture-of-experts (
 <img src="img/Representations.png" width="45%" />
 <img src="img/Hyperparameters.png" width="45%" />
 </p>
+
+## Citation
+If you use this code or data in your research, please cite:
+
+```bibtex
+@article{ALKILANE2024102589,
+title = {MixMamba: Time series modeling with adaptive expertise},
+journal = {Information Fusion},
+volume = {112},
+pages = {102589},
+year = {2024},
+issn = {1566-2535},
+doi = {https://doi.org/10.1016/j.inffus.2024.102589},
+url = {https://www.sciencedirect.com/science/article/pii/S1566253524003671},
+author = {Khaled Alkilane and Yihang He and Der-Horng Lee}
+}
 
 ## Acknowledgement
 We'd like to express our gratitude to the following GitHub repositories for their exceptional codebase:
