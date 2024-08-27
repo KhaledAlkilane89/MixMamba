@@ -82,10 +82,10 @@ MixMamba is a time series forecasting model that utilizes a mixture-of-experts (
 </figure>
 
 ## Model Analysis
-- Mixmamba performance under varied look-back window length \𝐿 ∈ {96, 192, 336, 720}\ on PEMS03 datasets (\𝑇 = 720\) (**Upper left**).
+- Mixmamba performance under varied look-back window length $𝐿 ∈ {96, 192, 336, 720}$ on PEMS03 datasets ($𝑇 = 720$) (**Upper left**).
 - Comparison of memory usage (Up) and computation time (Down) on ETTm2 dataset (Batch size is set to 32) (**Upper right**).
-- Comparison of learned representations for different experts on ETTm1 dataset with \𝐿 = 96, 𝑇 = 720\  (**Down left**).
-- Hyperparameters analysis on exchange and ILI datasets (\𝐿 = 96, 𝑇 = 720\). (**Down right**)
+- Comparison of learned representations for different experts on ETTm1 dataset with $𝐿 = 96, 𝑇 = 720$  (**Down left**).
+- Hyperparameters analysis on exchange and ILI datasets ($𝐿 = 96, 𝑇 = 720$). (**Down right**)
 <p align="center">
 <img src="img/Lookback_window.png" width="45%" />
 <img src="img/Time_complexity.png" width="45%" />
