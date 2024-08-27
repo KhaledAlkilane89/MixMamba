@@ -109,7 +109,8 @@ year = {2024},
 issn = {1566-2535},
 doi = {https://doi.org/10.1016/j.inffus.2024.102589},
 url = {https://www.sciencedirect.com/science/article/pii/S1566253524003671}
-}```
+}
+```
 
 ## Acknowledgement
 We'd like to express our gratitude to the following GitHub repositories for their exceptional codebase:
