@@ -87,12 +87,12 @@ MixMamba is a time series forecasting model that utilizes a mixture-of-experts (
 - Comparison of memory usage (Up) and computation time (Down) on ETTm2 dataset (Batch size is set to 32) (**Down left**).
 - Hyperparameters analysis on exchange and ILI datasets (\𝐿 = 96, 𝑇 = 720\). (**Down right**)
 <p align="center">
-<img src="img/Lookback_window.png" width="50%" />
-<img src="img/Representations.png" width="50%" />
+<img src="img/Lookback_window.png" width="45%" />
+<img src="img/Representations.png" width="45%" />
 </p>
 <p align="center">
-<img src="img/Time_complexity.png" width="50%" />
-<img src="img/Hyperparameters.png" width="50%" />
+<img src="img/Time_complexity.png" width="45%" />
+<img src="img/Hyperparameters.png" width="45%" />
 </p>
 
 ## Acknowledgement
