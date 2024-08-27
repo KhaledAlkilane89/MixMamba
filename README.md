@@ -27,25 +27,25 @@ MixMamba is a time series forecasting model that utilizes a mixture-of-experts (
 
 ## Visualization
 <figure>
-  <img src="img/ETTh1.png" alt="Long-term Forecasting with 𝐿 = 96 and 𝑇 = 192 on ETTh1." width="100%">
   <figcaption>
-    <div align="center">Long-term Forecasting with 𝐿 = 96 and 𝑇 = 192 on ETTh1.</div>
+    <div align="center"><b>Long-term Forecasting with 𝐿 = 96 and 𝑇 = 192 on ETTh1.</b></div>
   </figcaption>
+  <img src="img/ETTh1.png" alt="Long-term Forecasting with 𝐿 = 96 and 𝑇 = 192 on ETTh1." width="100%">
 </figure>
 
 
 <figure align="center">
-  <img src="img/Weather.png" alt="Long-term Forecasting with 𝐿 = 96 and 𝑇 = 192 on Weather" width="100%">
-  <figcaption>
-    <div align="center">Long-term Forecasting with 𝐿 = 96 and 𝑇 = 192 on Weather.</div>
+    <figcaption>
+    <div align="center"><b>Long-term Forecasting with 𝐿 = 96 and 𝑇 = 192 on Weather.</b></div>
   </figcaption>
+  <img src="img/Weather.png" alt="Long-term Forecasting with 𝐿 = 96 and 𝑇 = 192 on Weather" width="100%">
 </figure>
 
 <figure>
-  <img src="img/M4.png" alt="Description of picture 3" width="100%">
-  <figcaption>
-    <div align="center">Short-term Forecasting on M4 (Yearly).</div>
+    <figcaption>
+    <div align="center"><b>Short-term Forecasting on M4 (Yearly).</b></div>
   </figcaption>
+  <img src="img/M4.png" alt="Description of picture 3" width="100%">
 </figure>
 
 ## Usage
