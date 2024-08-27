@@ -68,7 +68,7 @@ MixMamba is a time series forecasting model that utilizes a mixture-of-experts (
 
 
 <figure align="center">
-  <img src="img/short_term_results" alt="short_term_results" width="100%">
+  <img src="img/short_term_results.png" alt="short_term_results" width="100%">
   <figcaption>
     <div align="center"><b>Multivariate Short-term Forecasting.</b></div>
   </figcaption>
