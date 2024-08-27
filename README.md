@@ -58,10 +58,9 @@ MixMamba is a time series forecasting model that utilizes a mixture-of-experts (
   - **Classification**:  ```bash ./scripts/classification/mixmamba.sh```
 
 ## Main Results
-
 <figure>
     <figcaption>
-    <div align="center"><b>Multivariate Long-term Forecasting.</b>></div>
+    <div align="center"><b>Multivariate Long-term Forecasting.</b></div>
   </figcaption>
   <img src="img/long_term_results.png" alt="long_term_results" width="100%">
 </figure>
