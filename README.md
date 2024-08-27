@@ -25,7 +25,7 @@ MixMamba is a time series forecasting model that utilizes a mixture-of-experts (
   <img src="img/algo3.png" width="30%" />
 </p>
 
-## Forecasting Plots
+## Visualization
 <figure>
   <img src="img/ETTh1.png" alt="Long-term Forecasting with 𝐿 = 96 and 𝑇 = 192 on ETTh1." width="100%">
   <figcaption>
