@@ -28,8 +28,11 @@ MixMamba is a time series forecasting model that utilizes a mixture-of-experts (
 ## Forecasting Plots
 <figure>
   <img src="img/ETTh1.png" alt="Long-term Forecasting with 𝐿 = 96 and 𝑇 = 192 on ETTh1." width="100%">
-  <figcaption style="text-align: center;">Long-term Forecasting with 𝐿 = 96 and 𝑇 = 192 on ETTh1.</figcaption>
+  <figcaption>
+    <div align="center">Long-term Forecasting with 𝐿 = 96 and 𝑇 = 192 on ETTh1.</div>
+  </figcaption>
 </figure>
+
 
 <figure align="center">
   <img src="img/Weather.png" alt="Long-term Forecasting with 𝐿 = 96 and 𝑇 = 192 on Weather" width="100%">
@@ -40,7 +43,9 @@ MixMamba is a time series forecasting model that utilizes a mixture-of-experts (
 
 <figure>
   <img src="img/M4.png" alt="Description of picture 3" width="100%">
-  <figcaption style="text-align: center;">Short-term Forecasting on M4 (Yearly).</figcaption>
+  <figcaption>
+    <div align="center">Short-term Forecasting on M4 (Yearly).</div>
+  </figcaption>
 </figure>
 
 ## Usage
