@@ -1,5 +1,5 @@
-# Multivariate Time Series Modeling
-MixMamba: Time Series Modeling with Adaptive Expertise
+# MixMamba
+This repository is the official implementation of the paper: [MixMamba: Time Series Modeling with Adaptive Expertise](https://www.sciencedirect.com/science/article/pii/S1566253524003671)
 
 ## Introduction
 A general time series modeling framework, especially for multivariate time series long- and short-term forecasting and classification.
