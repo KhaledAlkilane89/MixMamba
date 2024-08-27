@@ -2,8 +2,11 @@
 This repository is the official implementation of the paper: [MixMamba: Time Series Modeling with Adaptive Expertise](https://www.sciencedirect.com/science/article/pii/S1566253524003671)
 
 ## Introduction
-A general time series modeling framework, especially for multivariate time series long- and short-term forecasting and classification.
-> **Note:** Due to the ongoing review process, the complete code is not currently available. It will be released upon acceptance of this paper.
+The heterogeneity and non-stationary characteristics of time series data continue to challenge single models’ ability to capture complex temporal dynamics, especially in long-term forecasting. Therefore, we propose MixMamba that:
++ Leverages the [Mamba](https://arxiv.org/abs/2312.00752) model as an expert within a mixture-of-experts (MoE). This framework decomposes modeling into a pool of specialized experts,
+enabling the model to learn robust representations and capture the full spectrum of patterns present in time series data. 
++ A dynamic gating network is introduced to adaptively allocates each data segment to the most suitable expert based on its characteristics allows the model to adjust dynamically to temporal changes in the underlying data distribution.
++ To prevent bias towards a limited subset of experts, a load balancing loss function is incorporated. 
 
 ## Datasets
 Well-preprocessed datasets can be downloaded from either [Google Drive](https://drive.google.com/drive/folders/13Cg1KYOlzM5C7K8gK8NfC-F3EYxkM3D2) or [Baidu Drive](https://pan.baidu.com/s/1r3KhGd0Q9PJIUZdfEYoymg?pwd=i9iy). After downloading, place the data in the ```./dataset``` folder.
