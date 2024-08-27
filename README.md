@@ -44,8 +44,8 @@ MixMamba is a time series forecasting model that utilizes a mixture-of-experts (
 ## Usage
 1. To install the required dependencies, run the following command:
 
-'''bash
-pip install -r requirements.txt'''
+```bash
+pip install -r requirements.txt```
 
 2. 
 
