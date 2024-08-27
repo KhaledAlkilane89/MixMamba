@@ -28,19 +28,26 @@ MixMamba is a time series forecasting model that utilizes a mixture-of-experts (
 ## Forecasting Plots
 <figure>
   <img src="img/ETTh1.png" alt="Long-term Forecasting with 𝐿 = 96 and 𝑇 = 192 on ETTh1." width="100%">
-  <figcaption>Long-term Forecasting with 𝐿 = 96 and 𝑇 = 192 on ETTh1.</figcaption>
+  <figcaption style="text-align: center;">Long-term Forecasting with 𝐿 = 96 and 𝑇 = 192 on ETTh1.</figcaption>
 </figure>
 
 <figure>
   <img src="img/Weather.png" alt="Long-term Forecasting with 𝐿 = 96 and 𝑇 = 192 on Weather" width="100%">
-  <figcaption>Long-term Forecasting with 𝐿 = 96 and 𝑇 = 192 on Weather.</figcaption>
+  <figcaption style="text-align: center;">Long-term Forecasting with 𝐿 = 96 and 𝑇 = 192 on Weather.</figcaption>
 </figure>
 
 <figure>
   <img src="img/M4.png" alt="Description of picture 3" width="100%">
-  <figcaption>Short-term Forecasting on M4 (Yearly).</figcaption>
+  <figcaption style="text-align: center;">Short-term Forecasting on M4 (Yearly).</figcaption>
 </figure>
 
+## Usage
+1. To install the required dependencies, run the following command:
+
+'''bash
+pip install -r requirements.txt'''
+
+2. 
 
 ## Datasets
 Well-preprocessed datasets can be downloaded from either [Google Drive](https://drive.google.com/drive/folders/13Cg1KYOlzM5C7K8gK8NfC-F3EYxkM3D2) or [Baidu Drive](https://pan.baidu.com/s/1r3KhGd0Q9PJIUZdfEYoymg?pwd=i9iy). After downloading, place the data in the ```./dataset``` folder.
