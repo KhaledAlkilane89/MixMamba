@@ -8,12 +8,13 @@ enabling the model to learn robust representations and capture the full spectrum
 + A dynamic gating network is introduced to adaptively allocates each data segment to the most suitable expert based on its characteristics allows the model to adjust dynamically to temporal changes in the underlying data distribution.
 + To prevent bias towards a limited subset of experts, a load balancing loss function is incorporated.
 
-## Overall Architecture
-
-![Schematic architecture of MixMamba. The process begins with pre-processing the raw time series data through normalization and segmentation (left). These patches are
-then embedded and augmented with positional information before being input into the mixture of Mamba (MoM) block (center). This block consists of multiple Mamba experts
-coordinated via a gating network (right). Each Mamba module includes a series of projections, convolution, selective SSM, and a skip connection to learn temporal dependencies.
-Finally, a linear prediction head is employed to generate final outputs.](img/MixMamba_architecture.png)
+## Schematic Architecture
+MixMamba is a time series forecasting model that utilizes a mixture-of-experts (MoM) approach. The model's architecture consists of four primary stages:
+- Pre-processing: Raw time series data undergoes normalization and segmentation to create patches.
+- Embedding and Augmentation: Patches are embedded and augmented with positional information to provide context.
+- MoM Block: This central component consists of multiple Mamba experts coordinated by a gating network. Each Mamba expert employs a series of projections, convolutions, selective SSM, and a skip connection to learn temporal dependencies.
+- Prediction Head: A linear prediction head is used to generate final outputs based on the learned representations.
+![architecture](img/MixMamba_architecture.png)
 
 ## Datasets
 Well-preprocessed datasets can be downloaded from either [Google Drive](https://drive.google.com/drive/folders/13Cg1KYOlzM5C7K8gK8NfC-F3EYxkM3D2) or [Baidu Drive](https://pan.baidu.com/s/1r3KhGd0Q9PJIUZdfEYoymg?pwd=i9iy). After downloading, place the data in the ```./dataset``` folder.
