@@ -1,0 +1,12 @@
+beartype==0.18.5
+colt5_attention==0.11.0
+einops==0.8.0
+mamba_ssm==2.2.2
+matplotlib==3.7.5
+numpy==1.24.3
+pandas==2.0.3
+reformer_pytorch==1.4.4
+scipy==1.10.1
+sympy==1.12
+torch==2.4.0
+tqdm==4.66.5

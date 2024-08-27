@@ -72,10 +72,14 @@ class Exp_Classification(Exp_Basic):
         probs = torch.nn.functional.softmax(preds)  # (total_samples, num_classes) est. prob. for each class and sample
         predictions = torch.argmax(probs, dim=1).cpu().numpy()  # (total_samples,) int class index for each sample
         trues = trues.flatten().cpu().numpy()
+        # print(type(predictions), predictions.shape)
+        # print(type(trues), trues.shape)
+        predictions_tensor = torch.tensor(predictions)
+        trues_tensor = torch.tensor(trues)
         accuracy = cal_accuracy(predictions, trues)
-        f1 = multiclass_f1_score(predictions, trues, num_classes=5) # num_class=7 for PEMS-SF
+        f1 = multiclass_f1_score(predictions_tensor, trues_tensor, num_classes=5) # num_class=7 for PEMS-SF
         metric = BinaryAUROC()
-        metric.update(predictions, trues)
+        metric.update(predictions_tensor, trues_tensor)
         auc_roc = metric.compute()
 
         self.model.train()
