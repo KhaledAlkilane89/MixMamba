@@ -60,27 +60,40 @@ MixMamba is a time series forecasting model that utilizes a mixture-of-experts (
 ## Main Results
 
 <figure>
-  <img src="img/long_term_results.png" alt="long_term_results" width="100%">
-  <figcaption>
+    <figcaption>
     <div align="center"><b>Multivariate Long-term Forecasting.</b>></div>
   </figcaption>
+  <img src="img/long_term_results.png" alt="long_term_results" width="100%">
 </figure>
 
 
 <figure align="center">
-  <img src="img/short_term_results.png" alt="short_term_results" width="100%">
-  <figcaption>
+    <figcaption>
     <div align="center"><b>Multivariate Short-term Forecasting.</b></div>
   </figcaption>
+  <img src="img/short_term_results.png" alt="short_term_results" width="100%">
 </figure>
 
 <figure>
-  <img src="img/classification_results.png" alt="classification" width="100%">
   <figcaption>
     <div align="center"><b>Classification.</b></div>
   </figcaption>
+  <img src="img/classification_results.png" alt="classification" width="100%">
 </figure>
 
+## Model Analysis
+- Mixmamba performance under varied look-back window length \𝐿 ∈ {96, 192, 336, 720}\ on PEMS03 datasets (\𝑇 = 720\) (**Upper left**).
+- Comparison of learned representations for different experts on ETTm1 dataset with \𝐿 = 96, 𝑇 = 720\ (**Upper right**).
+- Comparison of memory usage (Up) and computation time (Down) on ETTm2 dataset (Batch size is set to 32) (**Down left**).
+- Hyperparameters analysis on exchange and ILI datasets (\𝐿 = 96, 𝑇 = 720\). (**Down right**)
+<p align="center">
+<img src="img/Lookback_window.png" width="50%" />
+<img src="img/Representations.png" width="50%" />
+</p>
+<p align="center">
+<img src="img/Time_complexity.png" width="50%" />
+<img src="img/Hyperparameters.png" width="50%" />
+</p>
 
 ## Acknowledgement
 We'd like to express our gratitude to the following GitHub repositories for their exceptional codebase:
