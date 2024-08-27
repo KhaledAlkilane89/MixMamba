@@ -17,12 +17,15 @@ MixMamba is a time series forecasting model that utilizes a mixture-of-experts (
 ![architecture](img/MixMamba_architecture.png)
 
 
-### Algorithms
+## Algorithms
 <p align="center">
   <img src="img/algo1.png" width="30%" />
   <img src="img/algo2.png" width="30%" />
   <img src="img/algo3.png" width="30%" />
 </p>
+
+## Forecasting Plots
+[ETTh1](img/ETTh1)
 
 ## Datasets
 Well-preprocessed datasets can be downloaded from either [Google Drive](https://drive.google.com/drive/folders/13Cg1KYOlzM5C7K8gK8NfC-F3EYxkM3D2) or [Baidu Drive](https://pan.baidu.com/s/1r3KhGd0Q9PJIUZdfEYoymg?pwd=i9iy). After downloading, place the data in the ```./dataset``` folder.
