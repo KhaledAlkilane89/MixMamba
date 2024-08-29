@@ -1,2 +1,5 @@
 
 
+long_term_forecast_ETTh1_96_192_mixmamba_ETTh1_ftM_sl96_ll48_pl192_dm64_ebtimeF_Exp_0  
+mse:0.4371389150619507, mae:0.4235526919364929
+

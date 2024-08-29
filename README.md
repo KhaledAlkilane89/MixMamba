@@ -112,7 +112,7 @@ url = {https://www.sciencedirect.com/science/article/pii/S1566253524003671}
 ```
 ## Contact Information
 For inquiries or to discuss potential code usage, please reach out to the following researchers:
-- Khaled (khaledalkilane@intl.zju.edu.cn)
+- Khaled (khaledalkilane@outlook.com)
 - Yihang (yihang.23@intl.zju.edu.cn)
   
 ## Acknowledgement

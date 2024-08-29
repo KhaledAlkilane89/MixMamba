@@ -1,0 +1,8 @@
+dataset
+**/*.pyc
+**/__pycache__/
+test_results
+checkpoints
+*.txt
+**/*.npy
+results
