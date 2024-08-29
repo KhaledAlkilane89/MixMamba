@@ -1,2 +1,5 @@
 
 
+long_term_forecast_ECL_96_96_mixmamba_custom_ftM_sl96_ll48_pl96_dm32_ebtimeF_Exp_0  
+mse:0.19498106837272644, mae:0.28177109360694885
+
