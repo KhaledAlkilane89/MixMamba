@@ -4,5 +4,9 @@ dataset
 test_results
 checkpoints
 *.txt
+<<<<<<< HEAD
 **/*.npy
 results
+=======
+**/*.npy
+>>>>>>> 15b686c0b7c37897af8b55531cf5b54ce9f38abd
