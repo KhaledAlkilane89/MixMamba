@@ -61,15 +61,17 @@ conda create -n mixmamba python=3.10 -y
 conda activate mixmamba
 pip install -r requirements.txt
 ```
+3. Datasets can be downloaded from either [Google Drive](https://drive.google.com/drive/folders/13Cg1KYOlzM5C7K8gK8NfC-F3EYxkM3D2) or [Baidu Drive](https://pan.baidu.com/s/1r3KhGd0Q9PJIUZdfEYoymg?pwd=i9iy). After downloading, place the data in the ```./dataset``` folder.
 
 ## Usage
-1. To install the required dependencies, run the following command:
-```pip install -r requirements.txt ```
-2. Datasets can be downloaded from either [Google Drive](https://drive.google.com/drive/folders/13Cg1KYOlzM5C7K8gK8NfC-F3EYxkM3D2) or [Baidu Drive](https://pan.baidu.com/s/1r3KhGd0Q9PJIUZdfEYoymg?pwd=i9iy). After downloading, place the data in the ```./dataset``` folder.
-3. Train and evaluate the model using the scripts provided in the ```./scripts/``` directory. Please refer to the following example for a step-by-step guide on reproducing the experimental results:
-  - **Long-term forecasting**: ```bash ./scripts/long_term_forecast/ETT_script/mixmamba_ETTh1.sh```
-  - **Short-term Forecasting**: ```bash ./scripts/short_term_forecast/mixmamba_M4.sh```
-  - **Classification**:  ```bash ./scripts/classification/mixmamba.sh```
+Train and evaluate the model using the scripts provided in the ```./scripts/``` directory. 
+Please refer to the following example for reproducing the experimental results:
+- **Long-term forecasting**:
+```bash ./scripts/long_term_forecast/ETT_script/mixmamba_ETTh1.sh```
+- **Short-term Forecasting**:
+```bash ./scripts/short_term_forecast/mixmamba_M4.sh```
+- **Classification**:
+```bash ./scripts/classification/mixmamba.sh```
 
 ## Main Results
 <figure>
