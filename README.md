@@ -48,6 +48,20 @@ MixMamba is a time series forecasting model that utilizes a mixture-of-experts (
   <img src="img/M4.png" alt="Description of picture 3" width="100%">
 </figure>
 
+## Install
+Please follow the guide here to prepare the environment on **Linux OS**.
+1. Clone this repository
+```bash
+git clone https://github.com/KhaledAlkilane89/MixMamba.git
+cd MixMamba
+```
+2. Create environment and install package:
+```bash
+conda create -n mixmamba python=3.10 -y
+conda activate mixmamba
+pip install -r requirements.txt
+```
+
 ## Usage
 1. To install the required dependencies, run the following command:
 ```pip install -r requirements.txt ```
